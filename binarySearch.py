@@ -9,6 +9,9 @@ target = 67
 iteration = 0
 
 def binarySearch(primes, xmin, xmax, target, iteration=0):
+    """
+     This search method is the binary search method. It is a common algorithm for finding a target in a list where the list is already sorted.
+    """
     for x in primes:
         iteration = iteration + 1
         arrVal = math.floor((xmin + xmax) / 2)
